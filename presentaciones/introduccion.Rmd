@@ -1,0 +1,85 @@
+---
+title: "Búsqueda de Proteínas en Plantas"
+author: "Erick Arroyo Álvarez"
+output:
+  xaringan::moon_reader:
+    css: 
+      - default
+    seal: false
+    self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+# Introducción
+
+---
+
+## ¿Por qué buscar proteínas?
+
+- Las proteínas son clave para la mayoría de los procesos biológicos.
+- Su identificación ayuda a comprender las funciones biológicas.
+- Las proteínas pueden ser usadas como biomarcadores o en ingeniería genética.
+
+---
+
+## Tipos de Búsqueda de Proteínas
+
+- **BLASTP**: Busca proteínas en bases de datos a partir de secuencias.
+- **InterProScan**: Identifica familias de proteínas y dominios funcionales.
+  
+---
+
+# Métodos de Búsqueda
+
+---
+
+## BLASTP
+
+- **Local**: Encuentra regiones con similitud local en dos secuencias.
+- **Global**: Alinea dos secuencias en su totalidad.
+
+---
+
+## Alineaciones y Distancias
+
+- **Alineaciones locales**: Utilizadas para encontrar subregiones similares entre dos secuencias.
+- **Alineaciones globales**: Compara secuencias completas.
+- **Matrices de distancias**: Evalúan las diferencias entre secuencias alineadas.
+  
+---
+
+## Transversiones y Transiciones
+
+- **Transiciones**: Cambio entre bases purinas (A ↔ G) o pirimidinas (C ↔ T).
+- **Transversiones**: Cambio entre una purina y una pirimidina.
+  
+---
+
+# Modelos Ocultos de Markov (HMM)
+
+---
+
+## HMMER
+
+- **HMMER**: Herramienta que permite la búsqueda de proteínas mediante modelos ocultos.
+- **Ventajas**: Captura información evolutiva, ideal para familias de proteínas divergentes.
+
+---
+
+## Flujo de Trabajo HMM
+
+1. Crear alineamiento múltiple.
+2. Generar perfil HMM.
+3. Usar perfil HMM para buscar proteínas.
+
+---
+
+# Conclusión
+
+- La identificación de proteínas es clave para la investigación biológica.
+- Los modelos HMM ofrecen un método avanzado para la búsqueda de proteínas en plantas.
+
