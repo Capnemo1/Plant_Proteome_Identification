@@ -1,4 +1,4 @@
-# Plant Proteome Identification
+# Family Protein Identification
 
 This repository contains the necessary scripts and data for identifying proteins across plant genomes. The analysis combines the use of command-line tools (like InterProScan and HMMER) with R to make the process more accessible and reproducible for bioinformatics teaching purposes.
 
